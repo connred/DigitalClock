@@ -34,7 +34,7 @@ $(document).ready(function(){
         var day = currentDay.getDate();
         var month = currentDay.getMonth();
         
-        var dayName = currentDay.getDay();
+        var dayName = currentDay.getDay() - 1;
         var year = currentDay.getFullYear();
         //
         if (dayName === 0){
